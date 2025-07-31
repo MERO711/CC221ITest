@@ -1,0 +1,127 @@
+    1  pkg search
+    2  pkg ugrade
+    3  pkg upgrade
+    4  pkg install neofetch cmatrix git
+    5  clear
+    6  neofetch
+    7  clear
+    8  cmatrix
+    9  git -v
+   10  pkg install gh
+   11  gh auth login
+   12  git clone https://github.com/MERO711/CC221ITest.git
+   13  cd CC221ITest
+   14  ls
+   15  touch cc221i.txt
+   16  clear
+   17  git status
+   18  git add cc221i.txt
+   19  git commit -m "git demo on terux"
+   20  git config --global.user.email meroducayen711@gmail.com
+   21  git config --global user.name MERO711
+   22  git commit -m "git demo on terux"
+   23  git config --global user.email "meroducayen711@gmail.com"
+   24  git config --global user.name "MERO711"
+   25  git commit -m "git demo on terux"
+   26  git push
+   27  history
+   28  pkg install c-script
+   29  mkdir -p project/src/utils
+   30  cd project/src/utils
+   31  cd ../..
+   32  mv src source
+   33  rm -r source
+   34  touch file1.txt file2.txt file3.txt
+   35  cp file1.txt copy_of_file1.txt
+   36  mv file2.txt ../file2_moved.txt
+   37  rm file3.txt
+   38  nano file1.txt
+   39  head file1.txt
+   40  tail file1.txt
+   41  grep "part" file1.txt
+   42  less file1.txt
+   43  ls -l file1.txt
+   44  chmod 644 file1.txt
+   45  chmod +x script.sh
+   46  sudo chown newowner:newgroup file1.txt
+   47  pkg install tsu
+   48  sudo chown newowner:newgroup file1.txt
+   49  ifconfig
+   50  ping www.google.com
+   51  netstat -tuln
+   52  netstat -s
+   53  df -h
+   54  du -sh /path/to/directory
+   55  du -sh /project/utils
+   56  ps aux
+   57  kill -9 PID
+   58  top
+   59  du -sh CC221ITest
+   60  pwd
+   61  tar -cvf archive.tar file1.txt file2.txt
+   62  tar -xvf archive.tar
+   63  tar -czvf archive.tar.gz file1.txt file2.txt
+   64  tar -xzvf archive.tar.gz
+   65  apt search cmatrix
+   66  apt search apache
+   67  sudo apt update
+   68  pkg search apache
+   69  pkg apt update
+   70  pkg apt upgrade
+   71  pkg update
+   72  pkg upgrade
+   73  git push
+   74  history
+   75  git commit -m "Pushed a file.txt file"
+   76  git add file1.txt
+   77  git commit -m "Pushed a file.txt file"
+   78  git push
+   79  history
+   80  whoami
+   81  ls
+   82  cd ../..
+   83  ls
+   84  pwd
+   85  ls
+   86  mkdir linux_practice
+   87  cd linux_practice
+   88  touch notes.txt
+   89  pwd
+   90  ls -la ~
+   91  cd ~
+   92  cd ..
+   93  pkg update
+   94  neofetch
+   95  neofetch > system_info.txt
+   96  cat system_info.txt
+   97  cp system_info.txt ~/linux_practice/
+   98  cd linux_practice
+   99  cd ~/linux_practice
+  100  ls -la ~
+  101  ls
+  102  cmatrix
+  103  echo "This experience has taught me me about updating, installing and running programs through Linux." > matrix_notes.txt
+  104  cat matrix_notes.txt
+  105  dh -h
+  106  top
+  107  cd ..
+  108  rm system_info.txt
+  109  rm -r linux_practice
+  110  dpkg -l | grep neo
+  111  cd linux_practice
+  112  history > history.txt
+  113  history
+  114  git add .
+  115  git init
+  116  git add .
+  117  git commit -m "Pushed Files"
+  118  git push
+  119  history > history.txt
+  120  git add history.txt
+  121  git commit "Added a history.txt file"
+  122  git push
+  123  history
+  124  git add history > history.txt
+  125  cd CC221ITest
+  126  git add history.txt
+  127  history > history.txt
